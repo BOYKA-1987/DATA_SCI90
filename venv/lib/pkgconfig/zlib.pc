@@ -1,0 +1,13 @@
+prefix=/Users/vipulmore/Documents/VS code/data science/venv
+exec_prefix=/Users/vipulmore/Documents/VS code/data science/venv
+libdir=/Users/vipulmore/Documents/VS code/data science/venv/lib
+sharedlibdir=/Users/vipulmore/Documents/VS code/data science/venv/lib
+includedir=/Users/vipulmore/Documents/VS code/data science/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
